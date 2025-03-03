@@ -1,0 +1,22 @@
+pdf_chatbot/
+│
+├── chatbot/                  # Core chatbot logic
+│   ├── __init__.py
+│   ├── pdf_processor.py      # PDF processing and text extraction
+│   ├── embeddings_manager.py # Embedding model management
+│   ├── vector_db.py          # Vector database management
+│   ├── llm_manager.py        # LLM management and switching
+│   ├── rag.py                # Retrieval-Augmented Generation logic
+│   └── chat_history.py       # Chat history logging
+│
+├── ui/                       # Streamlit UI components
+│   ├── __init__.py
+│   └── app.py                # Main Streamlit app
+│
+├── utils/                    # Utility functions
+│   ├── __init__.py
+│   └── logger.py             # Logging utilities
+│
+├── requirements.txt          # Dependencies
+├── README.md                 # Project documentation
+└── main.py                   # Entry point
