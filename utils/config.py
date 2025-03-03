@@ -1,7 +1,7 @@
 
 DEFAULT_EMBEDDING_MODEL = "ollama" #Sets default to OllamaEmbeddings
 
-HUGGINGFACE_API_TOKEN  = "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"
+HUGGINGFACE_API_TOKEN  = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx" #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
 
 #Configurations for each embedding model.
 EMBEDDING_MODELS_CONFIG = {
