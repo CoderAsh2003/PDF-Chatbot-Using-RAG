@@ -3,6 +3,10 @@ DEFAULT_EMBEDDING_MODEL = "ollama" #Sets default to OllamaEmbeddings
 
 HUGGINGFACE_API_TOKEN  = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx" #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
 
+
+TEXT_SPLITTER_CONFIG =  {
+    "chunk_size" : 1000,"chunk_overlap":100
+}
 #Configurations for each embedding model.
 EMBEDDING_MODELS_CONFIG = {
     "openai": {
